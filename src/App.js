@@ -1,7 +1,10 @@
+import Projects from "./components/Projects"
 
 const App = () => {
   return (
-    <div>My Portfolio</div>
+    <div>
+      <Projects />
+    </div>
   )
 }
 
