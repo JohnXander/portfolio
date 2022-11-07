@@ -1,4 +1,6 @@
 import Project from './Project'
+import STBVid from '../assets/stop-the-bus.mp4'
+import SMVid from '../assets/scratch-match.mp4'
 
 const projects = [
     {
@@ -6,14 +8,16 @@ const projects = [
         "ghRepoSlug": "stop-the-bus-client",
         "ghRepo2Slug": "stop-the-bus-server",
         "description": "An app version of the popular TEFL classroom game.",
-        "date": "Oct 2022"
+        "date": "Oct 2022",
+        "video": STBVid
     },
     {
         "name": "Scratch Match",
         "ghRepoSlug": "scratch-match",
         "ghRepo2Slug": "",
         "description": "A scratch map app where you can network with other travellers.",
-        "date": "Aug 2022"
+        "date": "Aug 2022",
+        "video": SMVid
     },
     {
         "name": "JX Problems",
@@ -54,10 +58,10 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div className="container text-center bg-primary">
+        <div className="container text-center">
             <div className="row">
-                {projects.map(project => {
-                    return <Project project={project} />
+                {projects.map((project, idx) => {
+                    return <Project key={idx} project={project} />
                 })}
             </div>
         </div>
