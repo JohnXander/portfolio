@@ -12,7 +12,7 @@ const Project = ({ project }) => {
                 <video className="w-100" src={project.video} controls></video>
             }
             <a
-                className="text-white"
+                className="text-white d-block"
                 href={`https://github.com/JohnXander/${project.ghRepoSlug}`}
             >
                 Go to {project.name === "Stop the Bus" && <span>Front-End</span>} Repo
@@ -25,6 +25,13 @@ const Project = ({ project }) => {
                     Go to Back-End Repo
                 </a>
             }
+            {project.tags.map((t, idx) => {
+                if (idx === project.tags.length - 1) {
+                    return <span>{t}</span>
+                } else {
+                    return <span>{t}, </span>
+                }
+            })}
         </div>
     )
 }

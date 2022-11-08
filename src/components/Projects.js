@@ -9,7 +9,8 @@ const projects = [
         "ghRepo2Slug": "stop-the-bus-server",
         "description": "An app version of the popular TEFL classroom game.",
         "date": "Oct 2022",
-        "video": STBVid
+        "video": STBVid,
+        "tags": ["JavaScript", "PostgreSQL", "React", "Express", "Node", "Prisma", "Insomnia", "HTML", "CSS"]
     },
     {
         "name": "Scratch Match",
@@ -17,42 +18,48 @@ const projects = [
         "ghRepo2Slug": "",
         "description": "A scratch map app where you can network with other travellers.",
         "date": "Aug 2022",
-        "video": SMVid
+        "video": SMVid,
+        "tags": ["JavaScript", "React", "HTML", "CSS"]
     },
     {
         "name": "JX Problems",
         "ghRepoSlug": "jx-problems",
         "ghRepo2Slug": "",
         "description": "10 katas created for Codewars.",
-        "date": "Jul 2022"
+        "date": "Jul 2022",
+        "tags": ["JavaScript", "Jasmine"]
     },
     {
         "name": "Mypography",
         "gh-repo-slug": "mypography",
         "ghRepo2Slug": "",
         "description": "An app that turns your handwriting into a font.",
-        "date": "Jul 2022"
+        "date": "Jul 2022",
+        "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
         "name": "Digital Picture Frame",
         "ghRepoSlug": "digital-picture-frame",
         "ghRepo2Slug": "",
         "description": "An app version of a digital picture frame built as an anniversary present for my girlfriend.",
-        "date": "Jun 2022"
+        "date": "Jun 2022",
+        "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
         "name": "Bangman",
         "ghRepoSlug": "bang-bang-man",
         "ghRepo2Slug": "",
         "description": "A parody app version of Hangman built as a joke for my coding classmates (one of them had a cat called Bang Bang).",
-        "date": "May 2022"
+        "date": "May 2022",
+        "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
         "name": "Boolean Random Name Picker",
         "ghRepoSlug": "boolean-random-name-picker",
         "ghRepo2Slug": "",
         "description": "A random name picker app built to help my tech coach randomly select students from the class.",
-        "date": "May 2022"
+        "date": "May 2022",
+        "tags": ["JavaScript", "HTML", "CSS"]
     }
 ]
 
