@@ -15,7 +15,7 @@ const projects = [
         "description": "An app version of the popular TEFL classroom game.",
         "date": "Oct 2022",
         "video": STBVid,
-        "tags": ["JavaScript", "PostgreSQL", "React", "Express", "Node", "Prisma", "Insomnia", "HTML", "CSS"]
+        "tags": ["JavaScript", "PostgreSQL", "React", "Express", "Node", "Prisma", "Insomnia", "CSS"]
     },
     {
         "name": "Scratch Match",
@@ -24,13 +24,13 @@ const projects = [
         "description": "A scratch map app where you can network with other travellers.",
         "date": "Aug 2022",
         "video": SMVid,
-        "tags": ["JavaScript", "React", "HTML", "CSS"]
+        "tags": ["JavaScript", "React", "CSS"]
     },
     {
         "name": "JX Problems",
         "repoSlug": "jx-problems",
         "repo2Slug": "",
-        "description": "10 katas created for Codewars.",
+        "description": "10 JavaScript katas created for Codewars.",
         "date": "Jul 2022",
         "video": JXVid,
         "tags": ["JavaScript", "Jasmine"]
@@ -42,6 +42,7 @@ const projects = [
         "description": "An app that turns your handwriting into a font.",
         "date": "Jul 2022",
         "video": MYVid,
+        "website": "https://johnxander.github.io/mypography/",
         "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
@@ -51,6 +52,7 @@ const projects = [
         "description": "An app version of a digital picture frame built as an anniversary present for my girlfriend.",
         "date": "Jun 2022",
         "video": DPFVid,
+        "website": "https://johnxander.github.io/digital-picture-frame/",
         "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
@@ -60,6 +62,7 @@ const projects = [
         "description": "A parody app version of Hangman built as a joke for my coding classmates (one of them had a cat called Bang Bang).",
         "date": "May 2022",
         "video": BMVid,
+        "website": "https://johnxander.github.io/bang-bang-man/",
         "tags": ["JavaScript", "HTML", "CSS"]
     },
     {
@@ -69,6 +72,7 @@ const projects = [
         "description": "A random name picker app built to help my tech coach randomly select students from the class.",
         "date": "May 2022",
         "video": BRNPVid,
+        "website": "https://johnxander.github.io/boolean-random-name-picker/",
         "tags": ["JavaScript", "HTML", "CSS"]
     }
 ]

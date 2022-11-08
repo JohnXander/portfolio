@@ -3,12 +3,12 @@ const Project = ({ project }) => {
     return (
         <div
             className="col-xl-3 col-lg-4 col-md-6 col-12 
-            border border-white"
+            border border-white mb-4"
         >
-            <video className="mw-100 pt-4" src={project.video} controls></video>
-            <div className="px-4 py-4">
+            <video className="mw-100 mt-4 border border-white rounded" src={project.video} controls></video>
+            <div className="px-4 pt-3 pb-4">
                 <h3>{project.name}</h3>
-                <p>{project.date}</p>
+                <p className="text-secondary m-0 mb-2">{project.date}</p>
                 <p>{project.description}</p>
                 <a
                     className="text-white d-block btn btn-primary mb-2"
@@ -21,16 +21,27 @@ const Project = ({ project }) => {
                         className="text-white d-block btn btn-primary mb-2"
                         href={`https://github.com/JohnXander/${project.repo2Slug}`}
                     >
-                        Go to Back-End Repo
+                        Back-End Repo
                     </a>
                 }
-                {project.tags.map((t, idx) => {
-                    if (idx === project.tags.length - 1) {
-                        return <span className="text-secondary">{t}</span>
-                    } else {
-                        return <span className="text-secondary">{t}, </span>
-                    }
-                })}
+                {project.website &&
+                    <a
+                        className="text-white d-block btn btn-primary mb-2"
+                        href={project.website}
+                    >
+                        Website
+                    </a>
+                }
+                <div className="mt-3">
+                    <span className="text-secondary"># </span>
+                    {project.tags.map((t, idx) => {
+                        if (idx === project.tags.length - 1) {
+                            return <span className="text-secondary">{t}</span>
+                        } else {
+                            return <span className="text-secondary">{t}, </span>
+                        }
+                    })}
+                </div>
             </div>
         </div>
     )
