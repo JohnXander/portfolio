@@ -80,7 +80,7 @@ const projects = [
 const Projects = () => {
     return (
         <div className="container text-center">
-            <h2>Projects</h2>
+            <h2 className='my-4'>Independent Projects</h2>
             <div className="row">
                 {projects.map((project, idx) => {
                     return <Project key={idx} project={project} />
