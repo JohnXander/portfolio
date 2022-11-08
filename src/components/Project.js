@@ -1,10 +1,7 @@
 
 const Project = ({ project }) => {
     return (
-        <div
-            className="col-xl-3 col-lg-4 col-md-6 col-12 
-            border border-white mb-4"
-        >
+        <div className="col-xl-3 col-lg-4 col-md-6 col-12 border border-white mb-4">
             <video className="mw-100 mt-4 border border-white rounded" src={project.video} controls></video>
             <div className="px-4 pt-3 pb-4">
                 <h3>{project.name}</h3>
