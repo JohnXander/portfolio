@@ -1,3 +1,4 @@
+import Background from "./components/Background"
 import Profile from "./components/Profile"
 import Projects from "./components/Projects"
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Profile />
       <Projects />
+      <Background />
     </div>
   )
 }
