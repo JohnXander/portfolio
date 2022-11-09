@@ -30,16 +30,24 @@ const Background = () => {
     return (
         <div className="container text-center">
             <h2 className='my-4 py-4 border-bottom border-top border-secondary'>Life Before Coding</h2>
-            <p>Before I became a programmer, I taught English as a foreign language in 12 countries.</p>
+            <p className='mb-4'>Before I became a programmer, I taught English as a foreign language in 12 countries.</p>
             <div className="row">
                 {countries.map((project, idx) => {
                     return (
-                        <div key={idx} className="col-xl-3 col-lg-4 col-md-6 col-12 border border-secondary mb-4 position-relative">
-                            <img className='w-100' src={project.img} alt={project.name} />
-                            <p>{project.name}, {project.year}</p>
+                        <div
+                            key={idx}
+                            className="col-xl-3 col-lg-4 col-md-6 col-12 
+                            border border-secondary mb-4 position-relative">
+                            <img
+                                className='w-100 h-75 mt-4'
+                                style={idx !== 6 ? { objectFit: 'cover' } : { objectFit: 'cover', objectPosition: 'left' }}
+                                src={project.img}
+                                alt={project.name}
+                            />
+                            <p className='my-3'>{project.name}, {project.year}</p>
                             {project.flag && <img
                                 className='position-absolute'
-                                style={{ width: '3rem', top: '0', left: '1.5rem' }}
+                                style={{ width: '3rem', top: '1.5rem', left: '1.5rem' }}
                                 src={project.flag}
                                 alt={project.name}
                             />}
