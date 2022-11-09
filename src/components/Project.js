@@ -1,8 +1,8 @@
 
 const Project = ({ project }) => {
     return (
-        <div className="col-xl-3 col-lg-4 col-md-6 col-12 border border-white mb-4">
-            <video className="mw-100 mt-4 border border-white rounded" src={project.video} controls></video>
+        <div className="col-xl-3 col-lg-4 col-md-6 col-12 border border-secondary mb-4">
+            <video className="mw-100 mt-4 border border-secondary rounded" src={project.video} controls></video>
             <div className="px-4 pt-3 pb-4">
                 <h3>{project.name}</h3>
                 <p className="text-secondary m-0 mb-2">{project.date}</p>
