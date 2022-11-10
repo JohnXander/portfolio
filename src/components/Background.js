@@ -26,9 +26,9 @@ const countries = [
     { name: "UAE", year: 2021, img: ae, flag: aeFlag }
 ]
 
-const Background = () => {
+const Background = ({ background }) => {
     return (
-        <div className="container text-center">
+        <div className="container text-center" ref={background}>
             <h2 className='my-4 py-4 border-bottom border-top border-secondary'>Life Before Coding</h2>
             <p className='mb-4'>Before I became a programmer, I taught English as a foreign language in 12 countries.</p>
             <div className="row">

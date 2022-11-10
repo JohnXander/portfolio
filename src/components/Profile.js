@@ -1,8 +1,8 @@
 import ProfilePic from '../assets/profile-pic.jpg'
 
-const Profile = () => {
+const Profile = ({ profile }) => {
     return (
-        <div className="container text-center">
+        <div className="container text-center" ref={profile}>
             <h2 className='my-4 py-4 border-bottom border-top border-secondary'>Profile</h2>
             <div className="row">
                 <div className="col-md-6">

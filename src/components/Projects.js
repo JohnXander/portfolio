@@ -30,7 +30,7 @@ const projects = [
         "name": "JX Problems",
         "repoSlug": "jx-problems",
         "repo2Slug": "",
-        "description": "10 JavaScript katas created for Codewars.",
+        "description": "10 JavaScript katas created for Codewars with tests.",
         "date": "Jul 2022",
         "video": JXVid,
         "tags": ["JavaScript", "Jasmine"]
@@ -77,9 +77,9 @@ const projects = [
     }
 ]
 
-const Projects = () => {
+const Projects = ({ projectSection }) => {
     return (
-        <div className="container text-center">
+        <div className="container text-center" ref={projectSection}>
             <h2 className='my-4 py-4 border-bottom border-top border-secondary'>Independent Projects</h2>
             <div className="row">
                 {projects.map((project, idx) => {
