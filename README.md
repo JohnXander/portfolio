@@ -1,3 +1,3 @@
-# My Portfolio
+# Portfolio
 
-<https://johnbloxam.netlify.app/>
+<https://johnbloxam.netlify.app>

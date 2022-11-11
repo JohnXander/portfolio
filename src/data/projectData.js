@@ -29,7 +29,7 @@ const projects = [
         "name": "JX Problems",
         "repoSlug": "jx-problems",
         "repo2Slug": "",
-        "description": "10 JavaScript katas created for Codewars with tests.",
+        "description": "10 JavaScript katas created for Codewars with testing.",
         "date": "Jul 2022",
         "video": JXVid,
         "tags": ["JavaScript", "Jasmine"]
