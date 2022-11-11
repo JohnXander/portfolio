@@ -1,11 +1,11 @@
 import Project from './Project'
-import STBVid from '../assets/stop-the-bus.mp4'
-import SMVid from '../assets/scratch-match.mp4'
-import JXVid from '../assets/jx-problems.mp4'
-import MYVid from '../assets/mypography.mp4'
-import DPFVid from '../assets/digital-picture-frame.mp4'
-import BMVid from '../assets/bangman.mp4'
-import BRNPVid from '../assets/boolean-random-name-picker.mp4'
+import STBVid from '../assets/vid/stop-the-bus.mp4'
+import SMVid from '../assets/vid/scratch-match.mp4'
+import JXVid from '../assets/vid/jx-problems.mp4'
+import MYVid from '../assets/vid/mypography.mp4'
+import DPFVid from '../assets/vid/digital-picture-frame.mp4'
+import BMVid from '../assets/vid/bangman.mp4'
+import BRNPVid from '../assets/vid/boolean-random-name-picker.mp4'
 
 const projects = [
     {
