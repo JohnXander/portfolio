@@ -1,4 +1,3 @@
-
 const Project = ({ project }) => {
     return (
         <div className="col-xl-3 col-lg-4 col-md-6 col-12 border border-secondary mb-4">
