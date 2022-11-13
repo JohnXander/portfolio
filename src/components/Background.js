@@ -1,11 +1,19 @@
+import { useState } from 'react'
 import countries from '../data/backgroundData'
 
 const Background = ({ background }) => {
+    const [openPhotos, setOpenPhotos] = useState(false)
+
+    const handleClick = () => setOpenPhotos(!openPhotos)
+
     return (
         <div className="container text-center" ref={background}>
             <h2 className='my-4 py-4 border-bottom border-top border-secondary'>Life Before Coding</h2>
             <p className='mb-4'>Before I became a programmer, I taught English as a foreign language in 12 countries.</p>
-            <div className="row">
+            <button onClick={handleClick} className='btn btn-primary mb-4'>
+                {!openPhotos ? 'Reveal Photos' : 'Hide Photos'}
+            </button>
+            {openPhotos && <div className="row">
                 {countries.map((project, idx) => {
                     return (
                         <div
@@ -28,7 +36,7 @@ const Background = ({ background }) => {
                         </div>
                     )
                 })}
-            </div>
+            </div>}
         </div>
     )
 }
