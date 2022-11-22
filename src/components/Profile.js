@@ -10,13 +10,19 @@ const Profile = ({ profile }) => {
                 </div>
                 <div className="col-md-6 text-start d-flex flex-column justify-content-center">
                     <h1 className='mt-3'>John Bloxam</h1>
-                    <h4 className='mb-3'>Full Stack Developer</h4>
-                    <p>🔍 Looking for a position as a Junior Developer.</p>
-                    <p>🌱 Recent graduate of a six-month, full-time course in software development.</p>
-                    <p>🎓 My background is in TEFL but I reskilled as a programmer.</p>
-                    <p>⚡ Fun fact: I can speak Spanish and Russian.</p>
-                    <p>📧 Email: johnbloxam5@gmail.com</p>
+                    <h4 className='mb-3'>Passionate Full-Stack Developer</h4>
+                    <p>🔍 #OpenToWork</p>
+                    <p>🌱 Recently a software engineering trainee at Boolean UK</p>
+                    <p>🔭 Currently exploring the power of the T3-Stack</p>
+                    <p>🎓 My background is in TEFL but I reskilled as a programmer</p>
+                    <p>⚡ Fun fact: I can speak Spanish and Russian</p>
                     <div className='my-3'>
+                        <a
+                            className='btn btn-primary'
+                            style={{ marginRight: '1rem' }}
+                            href='https://github.com/JohnXander'
+                        >💻 GitHub
+                        </a>
                         <a
                             className='btn btn-primary'
                             style={{ marginRight: '1rem' }}
