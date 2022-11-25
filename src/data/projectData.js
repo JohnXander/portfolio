@@ -1,4 +1,5 @@
 import STBVid from '../assets/vid/stop-the-bus.mp4'
+import CMVid from '../assets/vid/cohort-manager.mp4'
 import SMVid from '../assets/vid/scratch-match.mp4'
 import JXVid from '../assets/vid/jx-problems.mp4'
 import MYVid from '../assets/vid/mypography.mp4'
@@ -14,7 +15,17 @@ const projects = [
         "description": "An app version of the popular TEFL classroom game.",
         "date": "Oct 2022",
         "video": STBVid,
-        "tags": ["JavaScript", "PostgreSQL", "React", "Express", "Node", "Prisma", "Insomnia", "CSS"]
+        "tags": ["JavaScript", "Postgres", "React", "Express", "Node", "Prisma", "Insomnia", "CSS"]
+    },
+    {
+        "name": "Cohort Manager",
+        "repoSlug": "team-dev-client-c6",
+        "repo2Slug": "team-dev-server-c6",
+        "description": "Team project at Boolean UK.",
+        "date": "Oct 2022",
+        "video": CMVid,
+        "website": "https://cohortmanager.netlify.app",
+        "tags": ["JavaScript", "Postgres", "React", "Express", "Node", "Prisma", "Insomnia", "Material UI", "Agile", "Scrum", "AWS", "Netlify"]
     },
     {
         "name": "Scratch Match",
