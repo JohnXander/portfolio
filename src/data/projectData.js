@@ -1,3 +1,4 @@
+import KVid from '../assets/vid/kubud.mp4'
 import STBVid from '../assets/vid/stop-the-bus.mp4'
 import CMVid from '../assets/vid/cohort-manager.mp4'
 import SMVid from '../assets/vid/scratch-match.mp4'
@@ -8,6 +9,15 @@ import BMVid from '../assets/vid/bangman.mp4'
 import BRNPVid from '../assets/vid/boolean-random-name-picker.mp4'
 
 const projects = [
+    {
+        "name": "Kubud",
+        "repoSlug": "kubud",
+        "description": "An app that generates recipes based on the ingredients you have in your cupboard.",
+        "date": "Dec 2022",
+        "video": KVid,
+        "website": "https://kubud-johnxander.vercel.app",
+        "tags": ["TypeScript", "NextJS", "tRPC", "Prisma", "TailwindCSS", "Vercel"]
+    },
     {
         "name": "Stop the Bus",
         "repoSlug": "stop-the-bus-client",
