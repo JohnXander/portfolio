@@ -18,19 +18,19 @@ const Profile = ({ profile }) => {
                     <p>⚡ Fun fact: I can speak Spanish and Russian</p>
                     <div className='my-3'>
                         <a
-                            className='btn btn-primary'
+                            className='btn btn-primary mt-2'
                             style={{ marginRight: '1rem' }}
                             href='https://github.com/JohnXander'
                         >💻 GitHub
                         </a>
                         <a
-                            className='btn btn-primary'
+                            className='btn btn-primary mt-2'
                             style={{ marginRight: '1rem' }}
                             href='https://www.codewars.com/users/JohnXander'
                         >🥷 Codewars
                         </a>
                         <a
-                            className='btn btn-primary'
+                            className='btn btn-primary mt-2'
                             style={{ marginRight: '1rem' }}
                             href='https://www.linkedin.com/in/john-bloxam-210207250'
                         >
