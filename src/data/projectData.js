@@ -1,3 +1,4 @@
+import HWVid from '../assets/vid/heal-wheel.mp4'
 import KVid from '../assets/vid/kubud.mp4'
 import STBVid from '../assets/vid/stop-the-bus.mp4'
 import CMVid from '../assets/vid/cohort-manager.mp4'
@@ -9,6 +10,15 @@ import BMVid from '../assets/vid/bangman.mp4'
 import BRNPVid from '../assets/vid/boolean-random-name-picker.mp4'
 
 const projects = [
+    {
+        "name": "Heal Wheel",
+        "repoSlug": "heal-wheel",
+        "description": "An app that offers a 360 degree view of your current life situation.",
+        "date": "Dec 2022",
+        "video": HWVid,
+        "website": "https://heal-wheel.vercel.app",
+        "tags": ["TypeScript", "NextJS", "tRPC", "Prisma", "TailwindCSS", "Vercel"]
+    },
     {
         "name": "Kubud",
         "repoSlug": "kubud",
