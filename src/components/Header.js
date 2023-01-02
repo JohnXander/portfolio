@@ -28,13 +28,13 @@ const Header = ({ sections }) => {
                 >
                     Projects
                 </li>
-                <li
+                {/* <li
                     className="nav-item nav-link"
                     onClick={() => scrollToSection(sections[2])}
                     style={{ cursor: 'pointer', fontSize: '1.25rem', paddingRight: '1.25rem' }}
                 >
                     Background
-                </li>
+                </li> */}
             </ul>
         </nav >
     )

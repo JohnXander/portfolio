@@ -1,6 +1,6 @@
 import { useRef } from "react"
 
-import Background from "./components/Background"
+// import Background from "./components/Background"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Profile from "./components/Profile"
@@ -17,7 +17,7 @@ const App = () => {
       <Header sections={sections} />
       <Profile profile={profile} />
       <Projects projectSection={projectSection} />
-      <Background background={background} />
+      {/* <Background background={background} /> */}
       <Footer />
     </div>
   )
